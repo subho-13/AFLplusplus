@@ -49,6 +49,7 @@
 #include "llvm/Support/Debug.h"
 #include "llvm/Transforms/IPO/PassManagerBuilder.h"
 #include "llvm/IR/CFG.h"
+#include "llvm/Support/raw_ostream.h" /* needed for llvm 3.8 */
 
 struct bb_id {
 
